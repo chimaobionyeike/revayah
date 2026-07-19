@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Official public website for REVAYAH, a healthcare market access and commercial partnerships company.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
