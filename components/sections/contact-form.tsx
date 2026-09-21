@@ -76,7 +76,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="rounded-[18px] border border-emerald/10 bg-white p-6 shadow-[0_18px_60px_rgba(13,59,46,0.05)] md:p-8">
+    <form onSubmit={handleSubmit(onSubmit)} className="premium-panel rounded-[18px] p-5 md:p-8">
       <div className="grid gap-5 md:grid-cols-2">
         {fields.map((field) => (
           <div key={field.name} className="grid gap-2">

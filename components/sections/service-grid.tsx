@@ -7,12 +7,12 @@ export function ServiceGrid({ preview = false }: { preview?: boolean }) {
   const items = preview ? services.slice(0, 6) : services;
 
   return (
-    <MotionSection className="bg-white py-24 md:py-32">
+    <MotionSection className="bg-[#fbfaf7] py-24 md:py-32">
       <div className="container">
         <SectionHeading
           eyebrow="What we do"
-          title="Commercial work designed for long-term market presence."
-          description="We help leadership teams move from interest in Nigeria to serious relationships, qualified opportunities, and repeatable growth."
+          title="Commercial services for digital health companies entering Nigeria."
+          description="From a first strategy session to launch planning, outreach, intelligence, and local representation, REVAYAH helps teams move with confidence instead of guesswork."
         />
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {items.map((service) => (

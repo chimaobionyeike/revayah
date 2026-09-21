@@ -25,7 +25,7 @@ const reasons = [
 
 export function WhyRevayah() {
   return (
-    <MotionSection className="bg-white py-24 md:py-32">
+    <MotionSection className="bg-[#fbfaf7] py-24 md:py-32">
       <div className="container">
         <SectionHeading
           eyebrow="Why Revayah"
@@ -36,9 +36,12 @@ export function WhyRevayah() {
           {reasons.map((reason) => {
             const Icon = reason.icon;
             return (
-              <article key={reason.title} className="rounded-[18px] border border-emerald/10 bg-background p-8">
-                <Icon aria-hidden="true" className="h-7 w-7 stroke-[1.5] text-emerald" />
-                <h3 className="mt-12 text-2xl font-semibold">{reason.title}</h3>
+              <article key={reason.title} className="premium-panel rounded-[18px] p-8 transition duration-300 hover:-translate-y-1 hover:border-champagne/35">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-champagne/25 bg-white text-emerald">
+                  <Icon aria-hidden="true" className="h-6 w-6 stroke-[1.5]" />
+                </div>
+                <div className="mt-12 h-px w-14 bg-champagne/60" />
+                <h3 className="mt-6 text-2xl font-semibold">{reason.title}</h3>
                 <p className="mt-4 leading-7 text-muted">{reason.description}</p>
               </article>
             );

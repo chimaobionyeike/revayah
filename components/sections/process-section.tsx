@@ -9,8 +9,8 @@ export function ProcessSection() {
       <div className="container">
         <SectionHeading
           eyebrow="How we work"
-          title="A disciplined path from market interest to durable growth."
-          description="We align with international healthcare companies before introducing the market, then build the relationships and commercial motion required for confidence."
+          title="A disciplined path from validation to representation."
+          description="We help international digital health companies move from initial market evaluation to buyer intelligence, qualified outreach, ongoing insight, and long-term local representation."
           className="[&_.eyebrow]:text-champagne [&_h2]:text-white [&_p]:text-white/72"
         />
         <ol className="mt-14 grid gap-4 lg:grid-cols-7">
