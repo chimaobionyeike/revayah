@@ -9,7 +9,6 @@ import {
   HeartPulse,
   Landmark,
   LineChart,
-  Network,
   ScanSearch,
   ShieldCheck,
   Stethoscope
@@ -17,10 +16,10 @@ import {
 
 export const siteConfig = {
   name: "REVAYAH",
-  title: "REVAYAH | Healthcare Market Access and Commercial Partnerships in Nigeria",
+  title: "REVAYAH | Digital Health Market Access and Commercial Partnerships in Nigeria",
   description:
-    "REVAYAH helps international healthcare companies enter and grow in Nigeria through strategic partnerships, commercial representation, healthcare networks, and qualified market opportunities.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://revayah.com",
+    "REVAYAH helps international digital health and healthcare technology companies enter and grow in Nigeria through strategic partnerships, commercial representation, healthcare networks, and qualified market opportunities.",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://revayah-africa.vercel.app",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "partnerships@revayah.com",
   locale: "en_US",
   ogImage: "/og"
@@ -42,84 +41,78 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    title: "Healthcare Market Access",
+    title: "Nigeria Expansion Strategy Session",
     description:
-      "We help international teams understand entry pathways, buying centers, stakeholder expectations, and commercial routes into Nigeria.",
+      "A focused introductory session to assess whether Nigeria is a credible market for your digital health product and what the next move should be.",
     icon: Globe2
   },
   {
-    title: "Commercial Representation",
+    title: "Commercial Launch Blueprint",
     description:
-      "We act as a long-term local commercial partner and manufacturer's representative, without taking inventory or operating as a distributor.",
-    icon: Handshake
-  },
-  {
-    title: "Strategic Partnerships",
-    description:
-      "We build credible relationships with hospital groups, healthcare operators, private sector leaders, and public health stakeholders.",
-    icon: Network
-  },
-  {
-    title: "Business Development",
-    description:
-      "We identify qualified opportunities, support executive conversations, and help convert market interest into sustainable commercial progress.",
-    icon: LineChart
-  },
-  {
-    title: "Healthcare Network Development",
-    description:
-      "We connect healthcare companies with relevant decision-makers across clinical, operational, procurement, and investment contexts.",
-    icon: Building2
-  },
-  {
-    title: "Market Intelligence",
-    description:
-      "We translate local ecosystem knowledge into practical commercial judgment for leadership teams evaluating Nigeria.",
+      "Our flagship 3-week engagement covering market validation, customer segmentation, geography, buyer intelligence, positioning, and a 90-day action plan.",
     icon: ScanSearch
   },
   {
-    title: "Commercial Expansion Support",
+    title: "Commercial Outreach Sprint",
     description:
-      "We support market presence over time, helping partners develop trust, momentum, and repeatable growth systems.",
+      "A 30-day execution sprint for companies ready to test market response through outreach, qualification, meeting scheduling, feedback, and weekly reporting.",
+    icon: LineChart
+  },
+  {
+    title: "REVAYAH Intelligence",
+    description:
+      "A monthly retainer for market monitoring, competitor intelligence, policy signals, procurement insight, partnership opportunities, and strategy calls.",
     icon: BarChart3
+  },
+  {
+    title: "Nigeria Market Access Partner",
+    description:
+      "Long-term partner support for introductions, pilot programme development, partner sourcing, and in-country commercial representation.",
+    icon: Handshake
+  },
+  {
+    title: "Fractional Nigeria Market Lead",
+    description:
+      "Embedded local market leadership for international digital health companies that need a dedicated commercial presence without building a local team first.",
+    icon: Building2
   }
 ];
 
 export const industries = [
   {
-    title: "Medical Devices",
-    description:
-      "Commercial pathways for device manufacturers seeking credible clinical and institutional relationships.",
-    icon: Stethoscope
-  },
-  {
-    title: "Diagnostics",
-    description:
-      "Market access support for laboratory, imaging, point-of-care, and specialist diagnostic companies.",
-    icon: Activity
-  },
-  {
-    title: "Pharmaceuticals",
-    description:
-      "Partnership development for pharmaceutical companies evaluating entry, access, and stakeholder engagement.",
-    icon: ShieldCheck
-  },
-  {
     title: "Digital Health",
     description:
-      "Commercial partnership routes for software, virtual care, analytics, workflow, and patient engagement companies.",
+      "Commercial partnership routes for virtual care, patient engagement, remote monitoring, analytics, and care coordination platforms.",
     icon: CircleDot
   },
   {
     title: "Healthcare Technology",
     description:
-      "Relationship and opportunity development for technology companies serving providers, payers, and health systems.",
+      "Relationship and opportunity development for health software, workflow, infrastructure, and AI-enabled healthcare companies.",
     icon: HeartPulse
   },
   {
-    title: "Medical Equipment",
+    title: "Diagnostics Technology",
     description:
-      "Structured access to hospital buyers, clinical leaders, and strategic healthcare groups for equipment manufacturers.",
+      "Market access support for laboratory platforms, imaging technology, point-of-care networks, and specialist diagnostic systems.",
+    icon: Activity
+  },
+  {
+    title: "Medical Devices",
+    description:
+      "Commercial pathways for connected device and medtech companies seeking credible clinical and institutional relationships.",
+    icon: Stethoscope
+  },
+  {
+    title: "Pharmaceutical Technology",
+    description:
+      "Partnership development for medication access, adherence, data, specialty care, and pharmaceutical enablement platforms.",
+    icon: ShieldCheck
+  },
+  {
+    title: "Healthcare Investors",
+    description:
+      "Market perspective and partnership pathways for investors backing digital health, healthtech, and care delivery models.",
     icon: Landmark
   }
 ] as const;
@@ -130,16 +123,17 @@ export const insightCategories = [
   "Medical Devices",
   "Healthcare Investment",
   "Healthcare Market Access",
+  "Digital Health",
   "Healthcare Policy",
   "Africa"
 ] as const;
 
 export const processSteps = [
-  "International Healthcare Company",
-  "Discovery",
-  "Commercial Strategy",
-  "Healthcare Relationships",
-  "Business Development",
-  "Qualified Opportunities",
-  "Long-Term Market Growth"
+  "Strategy Session",
+  "Launch Blueprint",
+  "Buyer Intelligence",
+  "Commercial Outreach",
+  "Qualified Interest",
+  "Market Intelligence",
+  "Long-Term Representation"
 ] as const;
