@@ -28,8 +28,8 @@ export default function HomePage() {
         <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
           <SectionHeading
             eyebrow="Insights"
-            title="Perspective on healthcare market access in Nigeria."
-            description="Executive briefings for companies evaluating commercial growth, partnerships, and healthcare opportunity across Nigeria and Africa."
+            title="Perspective on digital health market access in Nigeria."
+            description="Executive briefings for companies evaluating commercial growth, partnerships, and digital health opportunity across Nigeria and Africa."
           />
           <Link href="/insights" className="inline-flex items-center gap-2 font-semibold text-emerald">
             View all insights
